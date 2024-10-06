@@ -1,0 +1,12 @@
+תכן ראשוני
+==========
+
+כאן יופיעו הפונקציות לתכן ראשוני מאורגנות ע"פ סוג התקרה שיש לתכנן.
+
+.. toctree::
+   :maxdepth: 2
+
+   sc-0-Dugma/index
+   sc-1-TikrotMikshiot/index
+   sc-2-TikrotTslaot/index
+   sc-3-TikrotLuchadim/index

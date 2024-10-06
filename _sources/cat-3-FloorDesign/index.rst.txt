@@ -1,0 +1,9 @@
+תכן מפורט קומתי
+==========
+
+This is the main page for Category 1.
+
+.. toctree::
+   :maxdepth: 2
+
+   subcategory1/index

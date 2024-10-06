@@ -1,0 +1,7 @@
+body {
+  direction: rtl;  /* Set the entire page to right-to-left */
+}
+
+.sidebar-tree {
+  direction: ltr;  /* Set only the sidebar-tree div to left-to-right */
+}

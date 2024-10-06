@@ -1,0 +1,198 @@
+דף דוגמה
+=============
+
+שלום וברוכים הבאים.
+כאן יהיה המון טקסט. למשל:
+
+- הנה דוגמה
+- והנה עוד דוגמה...
+- **והנה דוגמה בולטת**
+
+This is the main page for **Subcategory 1**. Here you can find a variety of content to showcase the different elements that can be used in reStructuredText (RST).
+
+Here you can find content like:
+
+- Text
+- Tables (Simple & Complex)
+- Notes
+- Admonitions
+- Images
+- Code Blocks
+- Links
+- Math Equations
+- Directives
+- Lists (Bullet, Numbered, Definition)
+- Footnotes
+- Block Quotes
+- Inline Code and Literals
+
+### Example Simple Table
+
+Here’s a simple table with headers and values:
+
+.. list-table:: Simple Example Table
+   :widths: 25 25 25 25
+   :header-rows: 1
+
+   * - Column 1
+     - Column 2
+     - Column 3
+     - Column 4
+   * - Value 1
+     - Value 2
+     - Value 3
+     - Value 4
+
+### Example Complex Table
+
+Here’s a more complex table with spanning columns and rows:
+
++--------------+-------------------------+---------------------------------+
+| **Header 1** | **Header 2 (colspan)**  | **Header 3**                    |
++==============+=========================+=================================+
+| Row 1 Col 1  | Row 1 Col 2 spanning    | Row 1 Col 3                     |
+|              | two columns             |                                 |
++--------------+-------------------------+---------------------------------+
+| Row 2 Col 1 spanning two rows          | Row 2 Col 2                     |
+| (rowspan)                              |                                 |
++--------------+-------------------------+---------------------------------+
+| Row 3 Col 1 continued from above       | Row 3 Col 2                     |
++--------------+-------------------------+---------------------------------+
+
++------------------------+------------+----------+----------+
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |
+| (header rows optional) |            |          |          |
++========================+============+==========+==========+
+| body row 1, column 1   | column 2   | column 3 | column 4 |
++------------------------+------------+----------+----------+
+| body row 2             | ...        | ...      |          |
++------------------------+------------+----------+----------+
+
+=====  =====  =======
+A      B      A and B
+=====  =====  =======
+False  False  False
+True   False  False
+False  True   False
+True   True   True
+=====  =====  =======
+
+### Example Image
+
+Here’s an example of an image in RST:
+
+.. image:: _static/sample-image.jpg
+   :alt: Sample Image
+   :width: 300px
+   :align: center
+
+*Fig 1: Example image caption*
+
+### Example Admonitions
+
+Admonitions are blocks of text that are intended to stand out. Here's an example:
+
+.. note::
+
+   This is a **note** for the reader!
+
+.. warning::
+
+   This is a **warning** message!
+
+.. tip::
+
+   Here’s a useful **tip** for you!
+
+.. danger::
+
+   Be cautious! This is a **danger** message!
+
+### Example Block Quote
+
+Here’s an example of a block quote:
+
+.. epigraph::
+
+   "The only limit to our realization of tomorrow is our doubts of today."
+   -- *Franklin D. Roosevelt*
+
+### Example Code Block
+
+Here’s an example of a code block:
+
+.. code-block:: python
+
+   def hello_world():
+       print("Hello, world!")
+
+### Example Math Equation
+
+Here’s a math equation using LaTeX:
+
+.. math::
+
+   E = mc^2
+
+### Example Bullet List
+
+This is an example of a bullet list:
+
+- Bullet point one
+- Bullet point two
+  - Sub-bullet point
+- Bullet point three
+
+### Example Numbered List
+
+This is an example of a numbered list:
+
+1. First item
+2. Second item
+3. Third item
+
+### Example Definition List
+
+This is an example of a definition list:
+
+Python
+  A high-level programming language for general-purpose programming.
+
+Sphinx
+  A documentation generator for Python projects.
+
+### Example Link
+
+Here’s an example of a hyperlink:
+
+`Python Official Documentation <https://docs.python.org/3/>`_
+
+### Example Inline Code and Literal
+
+Here’s how you can use inline code: ``print("Hello, World!")`` in Python.
+
+And this is an example of an inline literal: ``literal text``.
+
+### Example Directive
+
+Here’s an example of a directive:
+
+.. important::
+
+   This is an **important** directive.
+
+### Example Footnote
+
+Here’s a sentence with a footnote reference [#]_.
+
+.. [#] This is the footnote content.
+
+### Example TOC Tree
+
+This is a TOC tree that links to another page:
+
+.. toctree::
+   :maxdepth: 2
+
+   ssc-0-AnotherDugma/index
+
